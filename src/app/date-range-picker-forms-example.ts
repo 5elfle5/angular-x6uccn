@@ -5,6 +5,8 @@ import {FormGroup, FormControl} from '@angular/forms';
 @Component({
   selector: 'date-range-picker-forms-example',
   templateUrl: 'date-range-picker-forms-example.html',
+  styles: [`
+  `]
 })
 export class DateRangePickerFormsExample {
   range = new FormGroup({
@@ -12,8 +14,3 @@ export class DateRangePickerFormsExample {
     end: new FormControl()
   });
 }
-
-
-/**  Copyright 2020 Google LLC. All Rights Reserved.
-    Use of this source code is governed by an MIT-style license that
-    can be found in the LICENSE file at http://angular.io/license */
